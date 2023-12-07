@@ -1,0 +1,115 @@
+:root {
+    --color-fp:var(#fff6c9)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--color-fp);
+}
+#menu {
+    background-color: #331c0c;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.fm {
+    width: 60px;
+    margin: auto;
+}
+p {
+    color: #331c0c;
+font-family: Times;
+text-indent: 23px;
+}
+mark:hover { 
+    color: #535353;
+    margin: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    border-image: "100";
+}
+video {
+    margin: auto;
+}
+button {
+   margin: auto;
+   margin-left: auto;
+   margin-right: auto;
+   border: rgb(47, 0, 255);
+   color: white;
+   justify-content: center;
+   text-align:center;
+   font-family: arial;
+   cursor: pointer;
+   background-color: black;
+   border-radius: 6px;
+   font-weight: bold;
+   display: flex;
+   flex-direction: row;
+   
+}
+ul, li {
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+}
+button:visited {
+    margin: auto;
+    color: black;
+    background-color: white;
+    width: 110px;
+    height: 110px;
+}
+button:hover {
+margin: auto;
+color: white;
+background-color: green;
+border: green;
+width: 110px;
+height: 23px;
+}
+button:active {
+    margin: auto;
+    color: darkgreen;
+background-color: yellow;
+border: rgb(0, 0, 0);
+width: 110px;
+height: 23px;
+}
+ins {
+    color:green;    
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 30%;
+    width: 90%;
+    background: white;
+    height: 4000px;
+}
+iframe:hover {
+   opacity: 100%; 
+   border-image: url(./imagens/armazenar.png);
+}
+.arrow {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   width: 4%;
+   transition: 0.8s;
+   cursor: pointer;;
+   border-color: white;
+   background-color: #63dbb9;
+   margin: 3px;
+   border-radius: 3px;
+}
+.arrow:hover {
+    background-color: aqua;
+}
